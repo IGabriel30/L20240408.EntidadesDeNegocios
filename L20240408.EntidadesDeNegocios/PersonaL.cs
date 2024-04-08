@@ -28,7 +28,7 @@ namespace L20240408.EntidadesDeNegocios
         public decimal SueldoL { get; set; }
 
         [Required(ErrorMessage = "El estatus es requerido")]
-        public byte Status { get; set; }
+        public byte StatusL { get; set; }
 
     }
 }
